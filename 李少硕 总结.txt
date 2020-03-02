@@ -1,0 +1,79 @@
+Django是什么
+Django的作用用处,Django的特点,Django的MTV设计模式
+web框架 Django与scrapy flask
+
+创建Django项目 Django所用的环境
+Django 一些常用的命令
+runserver startproject等等啥的
+
+Django请求与响应
+Django模型与后台的联系
+admin
+
+视图 模板
+
+还讲了个表单和类视图
+
+
+界面后台
+
+
+
+Django项目目录结构
+几个文件的作用....
+Django静态文件的配置
+
+orm
+
+写了一个blog
+
+
+
+
+小程序
+
+4种文件
+HTML wxml
+js js
+css wxss
+json json
+
+pages文件夹放写的文件
+
+yaml ????
+
+添加事件 给标签添加属性,
+
+api wx提供api
+
+微信小程序发起网络请求 wx.request(){
+}
+
+Django与小程序结合,前端与Django后台
+
+小程序与Django
+
+点击事件,
+
+写小程序用户的一些功能
+
+有状态无状态服务,但具体让我说我还是不会说
+
+事务
+
+小程序用户的一些状态,登录注销,与Django后台
+(添加状态)
+
+写的有的我也没听懂,看b站视频
+有些也不是很懂,就看啥时候能回学校了,我还有好多问题想请教请教您,不只是关于学习上的.还有电脑也没换........
+
+
+
+
+
+
+
+
+
+
+
