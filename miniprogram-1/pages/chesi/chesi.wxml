@@ -1,0 +1,12 @@
+<!--pages/chesi/chesi.wxml-->
+<text>pages/chesi/chesi.wxml</text>
+<view>我是测试页</view>
+<view>{{name}}</view>
+<view>{{age}}</view>
+<view bindtap="dianji">点击我</view>
+<view bindlongpress="save">长安我</view>
+<view bindtap="test">网络测试</view>
+<button bindtap="save">保存</button>
+<button bindtap="read">读取</button>
+<button bindtap="remove">remove缓存</button>
+<button bindtap="clear">清空所有</button>

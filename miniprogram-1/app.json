@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/chesi/chesi",
+    "pages/gird/gird"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "selectedColor": "#0f0",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+    },{
+        "pagePath": "pages/gird/gird",
+        "text": "宫格"
+    },{
+      "pagePath": "pages/chesi/chesi",
+      "text": "测试"
+    }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

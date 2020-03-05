@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view>你好,小姐姐</view>
+  <view>{{name}}</view>
+  <view>{{age}}</view>
+  <!-- 列表索引值 -->
+  <view>{{array[0].msg}}</view>
+  <view>{{array[1].msg}}</view>
+  <!-- 遍历列表 角标索引 -->
+  <view wx:for='{{array}}'wx:key='key'>{{index}},{{item.msg}}</view>
+  <view wx:for="{{array}}">{{item.msg}}</view>
+  <!-- 点击提示 -->
+  <view bindtap="dianji">别点我</view>
+  <!-- 长按提示 -->
+  <view bindlongpress="changan">长按我</view>
+  <view>{{massage}}</view>
+
+</view>
